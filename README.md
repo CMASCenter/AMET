@@ -1,35 +1,38 @@
-AMET
+AMET version 1.2
 ======
 
 Atmospheric Model Evaluation Tool
 
-The Atmospheric Model Evaluation Tool (AMET) (Gilliam et al., 2005) is a
-suite of software designed to facilitate the analysis and evaluation of
-meteorological and air quality models. AMET matches the model output for
-particular locations to the corresponding observed values from one or
-more networks of monitors. These pairings of values (model and
-observation) are then used to statistically and graphically analyze the
-modelâ~@~Ys performance.
+## AMET Overview
 
-More specifically, AMET is currently designed to analyze outputs from
-the PSU/NCAR Mesoscale Model (MM5), the Weather Research and Forecasting
-(WRF) model, and the Community Multiscale Air Quality (CMAQ) model, as
-well as Meteorology-Chemistry Interface Processor (MCIP)-postprocessed
-meteorological data (surface only).
-
-The AMET Git archive is organized with each official public release stored as a branch on the main CMASCenter/AMET repository.
-To check out code from the AMET Git archive, specify the branch (i.e. version number) and issue the following command from within
+## Getting the AMET Repository
+This AMET Git archive is organized with each official public release stored as a branch on the main USEPA/AMET repository.
+To clone code from the AMET Git archive, specify the branch (i.e. version number) and issue the following command from within
 a working directory on your server:
+```
+git clone -b 1.2 https://github.com/USEPA/AMET.git AMET_v12
+```
 
-git clone -b 1.2 https://github.com/CMASCenter/AMET.git
+## AMET 1.2 Repository Guide
+Source code and scripts are organized as follows:
+* **R:** 
+* **bin:** 
+* **configure:** 
+* **docs:** 
+* **obs:** 
+* **perl:** 
+* **scripts_analysis:** 
+* **scripts_db:** 
+* **src:** 
 
-This command shows how to check out CMAQ v1.2 codes and scripts.  
+## Documentation
+Release notes and Code documentation are included within this repository (they are version-controlled along with the code itself).  
 
-The release versions of CMAQ that are currently available on Git Hub include:
+[AMETv1.2 User Guide](docs/MET_Users_Guide_v1.md)   
+[AMETv1.2 Installation Guide](docs/AMET_Install_Guide_v1.md )   
 
-* [v1.3 (June 2017)](https://github.com/CMASCenter/AMET/tree/1.3)
-* [v1.2 (May 2008)](https://github.com/CMASCenter/AMET/tree/1.2)
+## AMET Tutorial
 
-Sample model and observation data for testing the AMET installation are available from the CMAS Center Software Clearinghouse. From http://www.cmascenter.org, select Download -> Software -> AMET and choose the version to get the sample data.
-
-
+## EPA Disclaimer
+The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis and the user assumes responsibility for its use. EPA has relinquished control of the information and no longer has responsibility to protect the integrity , confidentiality, or availability of the information. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by EPA. The EPA seal and logo shall not be used in any manner to imply endorsement of any commercial product or activity by EPA or the United States Government.    [<img src="https://licensebuttons.net/p/mark/1.0/88x31.png" width="50" height="15">](https://creativecommons.org/publicdomain/zero/1.0/)
+ 
